@@ -1,3 +1,10 @@
 body {
-	background-color: green;
-}
+  padding: 0 2rem; }
+  body h1 {
+    color: orange;
+    font-size: 28px; }
+  body p {
+    color: grey;
+    font-size: 14px; }
+
+/*# sourceMappingURL=style.css.map */
