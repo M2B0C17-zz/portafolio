@@ -1,13 +1,31 @@
-body {
-	padding: 0 2rem;
+h1{
+	color:$color-title;
+	font-size: 3rem;
+	font-family: $fonts-secundaryRegular;
+}
 
-	h1{
-		color:$color-title;
-		font-size: 28px;
+p{
+	font-size: 1rem;
+}
+
+.img-header {
+	height: 100vh;
+	background-color: #e6e7e8;
+	
+	.text-nexttitle{
+		font-size: 1.5rem;
+		color: $color-subtitle;
+	}
+	
+	.text-description{
+		color: $color-black;
 	}
 
-	p{
-		color: grey;
-		font-size: 14px;
+	.img-aboutMe {
+		background-image: url("img/imgAboutMe.png");
+		height: 87.2vh;
+		background-position: right;
+	    background-repeat: no-repeat;
+	    background-size: contain;
 	}
 }

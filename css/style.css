@@ -1,10 +1,53 @@
-body {
-  padding: 0 2rem; }
-  body h1 {
-    color: orange;
-    font-size: 28px; }
-  body p {
-    color: grey;
-    font-size: 14px; }
+@font-face {
+  font-family: 'poppinsregular';
+  src: url("css/poppins-regular-webfont.eot");
+  src: url("poppins-regular-webfont.woff") format("woff"), url("css/poppins-regular-webfont.woff2") format("woff2"), url("css/poppins-regular-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'poppinsbold';
+  src: url("css/Poppins-Bold.eot");
+  src: url("css/Poppins-Bold.woff") format("woff"), url("css/Poppins-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'poppinslight';
+  src: url("css/Poppins-Light.eot");
+  src: url("css/Poppins-Light.woff") format("woff"), url("css/poppins-light-webfont.woff2") format("woff2"), url("css/Poppins-Light.ttf") format("truetype");
+  font-weight: lighter;
+  font-style: normal; }
+@font-face {
+  font-family: 'athelasregular';
+  src: url("css/athelas-regular-webfont.eot");
+  src: url("css/athelas-regular-webfont.eot?#iefix") format("embedded-opentype"), url("css/athelas-regular-webfont.woff2") format("woff2"), url("css/athelas-regular-webfont.woff") format("woff"), url("css/athelas-regular-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'athelasbold';
+  src: url("css/Athelas-Bold-04.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+h1 {
+  color: #731615;
+  font-size: 3rem;
+  font-family: athelasregular; }
+
+p {
+  font-size: 1rem; }
+
+.img-header {
+  height: 100vh;
+  background-color: #e6e7e8; }
+  .img-header .text-nexttitle {
+    font-size: 1.5rem;
+    color: #A5321C; }
+  .img-header .text-description {
+    color: #000000; }
+  .img-header .img-aboutMe {
+    background-image: url("img/imgAboutMe.png");
+    height: 87.2vh;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 /*# sourceMappingURL=style.css.map */

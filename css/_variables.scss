@@ -1,1 +1,69 @@
-$color-title: orange;
+// Colores Primarios
+$color-title: #731615;
+$color-subtitle: #A5321C;
+$color-black: #000000;
+$color-white: #ffffff;
+// Colores Secundarios
+$color-background: #E6E7E8;
+$color-beight: #A59286; // fonts
+$color-rosa: #F7A9B0;
+
+// Tipografias
+$fonts-primaryRegular: poppinsregular;
+$fonts-primaryLight: poppinslight;
+$fonts-primaryBold: poppinsbold;
+
+$fonts-secundaryRegular: athelasregular;
+$fonts-secundaryBold: athelasbold;
+
+// Font Family
+
+// Poppins
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('css/poppins-regular-webfont.eot');
+    src: url('poppins-regular-webfont.woff') format('woff'),
+    	 url('css/poppins-regular-webfont.woff2') format('woff2'),
+         url('css/poppins-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppinsbold';
+    src: url('css/Poppins-Bold.eot');
+    src: url('css/Poppins-Bold.woff') format('woff'),
+         url('css/Poppins-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppinslight';
+    src: url('css/Poppins-Light.eot');
+    src: url('css/Poppins-Light.woff') format('woff'),
+     	 url('css/poppins-light-webfont.woff2') format('woff2'),
+         url('css/Poppins-Light.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+// Athelas
+@font-face {
+    font-family: 'athelasregular';
+    src: url('css/athelas-regular-webfont.eot');
+    src: url('css/athelas-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('css/athelas-regular-webfont.woff2') format('woff2'),
+         url('css/athelas-regular-webfont.woff') format('woff'),
+         url('css/athelas-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'athelasbold';
+    src: url('css/Athelas-Bold-04.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
