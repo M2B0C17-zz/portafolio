@@ -12,7 +12,7 @@ h1{
 	border: none;
 	transition: box-shadow .3s;
 	width: 15rem;
-	
+
 	&:hover{
 		-webkit-box-shadow: 20px 20px 20px 0 rgba(225,225,225,.7);
 		-moz-box-shadow: 20px 20px 20px 0 rgba(225,225,225,.7);
@@ -77,6 +77,14 @@ p{
 	height: 80vh;
 }
 
+.bg-size-55{
+	height: 55vh;
+}
+
+.bg-size-30{
+	height: 30vh;
+}
+
 .color-title{
 	color: $color-title;
 }
@@ -118,8 +126,19 @@ p{
 
 //::::::::::::::; Navbar + Header
 
-.img-header {
+.img-header{
 	height: 100vh;
+}
+
+.img-headerProjects{
+	height: 50vh;
+}
+
+.img-headerContact{
+	height: 80vh;
+}
+
+.img-header, .img-headerProjects, .img-headerContact {
 	background-color: $color-background;
 
 	.navbar-toggler {
@@ -220,13 +239,4 @@ p{
 	.logo-id{
 		background-image: url("img/logo-id.png");
 	}
-}
-
-// Projects
-
-// DG
-
-.base-imgProjects{
-	@include base-imgProjects();
-	@include no-selector();
 }

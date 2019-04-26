@@ -120,6 +120,12 @@ p {
 .bg-size-80 {
   height: 80vh; }
 
+.bg-size-55 {
+  height: 55vh; }
+
+.bg-size-30 {
+  height: 30vh; }
+
 .color-title {
   color: #731615; }
 
@@ -151,22 +157,30 @@ p {
     border-bottom: 3px solid #A5321C !important; }
 
 .img-header {
-  height: 100vh;
+  height: 100vh; }
+
+.img-headerProjects {
+  height: 50vh; }
+
+.img-headerContact {
+  height: 80vh; }
+
+.img-header, .img-headerProjects, .img-headerContact {
   background-color: #ebeced; }
-  .img-header .navbar-toggler {
+  .img-header .navbar-toggler, .img-headerProjects .navbar-toggler, .img-headerContact .navbar-toggler {
     background-color: #731615;
     border: 1px solid #731615; }
-  .img-header .text-nexttitle {
+  .img-header .text-nexttitle, .img-headerProjects .text-nexttitle, .img-headerContact .text-nexttitle {
     font-size: 1.5rem;
     color: #A5321C; }
-  .img-header .text-description {
+  .img-header .text-description, .img-headerProjects .text-description, .img-headerContact .text-description {
     color: #000000;
     text-align: justify; }
-  .img-header .icon-black {
+  .img-header .icon-black, .img-headerProjects .icon-black, .img-headerContact .icon-black {
     font-size: 2.7rem;
     color: #000000;
     cursor: pointer; }
-    .img-header .icon-black:hover {
+    .img-header .icon-black:hover, .img-headerProjects .icon-black:hover, .img-headerContact .icon-black:hover {
       color: #F7A9B0 !important; }
 
 #interests .icon {
@@ -226,16 +240,5 @@ p {
   background-image: url("img/logo-pr.png"); }
 #skills .logo-id {
   background-image: url("img/logo-id.png"); }
-
-.base-imgProjects {
-  width: auto;
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -khtml-user-select: none;
-  -ms-user-select: none; }
 
 /*# sourceMappingURL=style.css.map */
