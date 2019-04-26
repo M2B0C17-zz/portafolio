@@ -1,15 +1,30 @@
 h1, h2, h3, h4, h5, h6{
 	color:$color-title;
 	font-family: $fonts-secundaryRegular;
+	@include no-selector();
 }
 
 h1{
-		font-size: 3rem;
+	font-size: 3rem;
+}
+
+hr{
+	border-bottom: 1px solid $color-rosa;
 }
 
 p{
 	font-size: 1rem;
 	font-family: $fonts-primaryRegular;
+	@include no-selector();
+}
+
+.p{
+	@include no-selector();
+	@include p();
+}
+
+.bg-size-80{
+	height: 80vh;
 }
 
 .color-title{
@@ -20,17 +35,32 @@ p{
 	color: $color-subtitle;
 }
 
-.icon{
-	@include icon-title();
-}
-
 .bg-beight{
 	background-color: $color-background;
 }
 
+.nav-link{
+	color: $color-black !important;
+	font-family: $fonts-primaryBold;
+	border-bottom: 3px solid transparent !important;
+	margin: 0 1rem;
+
+	&:active, &:hover, &:focus{
+		color: #706d6d !important;
+		border-bottom: 3px solid $color-subtitle !important;
+	}
+}
+
+//::::::::::::::; Navbar + Header
+
 .img-header {
 	height: 100vh;
 	background-color: $color-background;
+
+	.navbar-toggler {
+	    background-color: $color-title;
+	    border: 1px solid $color-title;
+	}
 	
 	.text-nexttitle{
 		font-size: 1.5rem;
@@ -46,8 +76,22 @@ p{
 		font-size: 2.7rem;
 		color: $color-black;
 		cursor: pointer;
+
+		&:hover{
+			color: $color-rosa !important;
+		}
 	}
 }
+
+//::::::::::::::; Interests
+
+#interests {
+	.icon{
+		@include icon-title();
+	}
+}
+
+//::::::::::::::; Formation
 
 #formacion{
 	.p-bajada{
@@ -67,10 +111,48 @@ p{
 	}
 }
 
-.p{
-	@include p();
-}
+//::::::::::::::; Skills
 
-.bg-size-80{
-	height: 80vh;
+#skills{
+	.base-logoSkills{
+		@include logo-skills();
+		@include no-selector();
+	}
+
+	.logo-html{
+		background-image: url("img/logo-html.png");
+	}
+	.logo-css{
+		background-image: url("img/logo-css.png");
+	}
+	.logo-bootstrap{
+		background-image: url("img/logo-bootstrap.png");
+	}
+	.logo-sass{
+		background-image: url("img/logo-sass.png");
+	}
+	.logo-agile{
+		background-image: url("img/logo-agile.png");
+	}
+	.logo-mailchimp{
+		background-image: url("img/logo-mailchimp.png");
+	}
+	.logo-ps{
+		background-image: url("img/logo-ps.png");
+	}
+	.logo-ai{
+		background-image: url("img/logo-ai.png");
+	}
+	.logo-ae{
+		background-image: url("img/logo-ae.png");
+	}
+	.logo-xd{
+		background-image: url("img/logo-xd.png");
+	}
+	.logo-pr{
+		background-image: url("img/logo-pr.png");
+	}
+	.logo-id{
+		background-image: url("img/logo-id.png");
+	}
 }

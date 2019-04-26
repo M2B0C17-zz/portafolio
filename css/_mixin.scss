@@ -15,3 +15,20 @@
 	background-size: contain;
 	height: 4rem;
 }
+
+@mixin logo-skills(){
+	//padding: 3rem;
+	width: 4rem;
+	height: 4rem;
+	margin: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+@mixin no-selector(){
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select:none;
+}

@@ -2,7 +2,22 @@
 
 // Extra small devices (portrait phones, less than 576px) ---> xs
 @media (max-width: 575.98px) {
+	#interests {
+		.icon {
+		    font-size: 2rem !important;
+		    padding: 0 !important;
+		}
+	}
+	
+	.d-xs-none{
+		display: none !important;
+	}
 
+	#skills {
+		.base-logoSkills{
+			margin-bottom: 3rem !important;
+		}
+	}
 }
 
 // Small devices (landscape phones, 576px and up) ---> sm

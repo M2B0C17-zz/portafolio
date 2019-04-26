@@ -27,6 +27,16 @@
   src: url("css/Athelas-Bold-04.ttf") format("truetype");
   font-weight: bold;
   font-style: normal; }
+@media (max-width: 575.98px) {
+  #interests .icon {
+    font-size: 2rem !important;
+    padding: 0 !important; }
+
+  .d-xs-none {
+    display: none !important; }
+
+  #skills .base-logoSkills {
+    margin-bottom: 3rem !important; } }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .img-aboutMe {
     background-image: url("img/bg-img-aboutMe.png");
@@ -47,14 +57,36 @@
     background-size: contain; } }
 h1, h2, h3, h4, h5, h6 {
   color: #731615;
-  font-family: athelasregular; }
+  font-family: athelasregular;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none; }
 
 h1 {
   font-size: 3rem; }
 
+hr {
+  border-bottom: 1px solid #F7A9B0; }
+
 p {
   font-size: 1rem;
-  font-family: poppinsregular; }
+  font-family: poppinsregular;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none; }
+
+.p {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+  text-align: justify;
+  color: #A59286; }
+
+.bg-size-80 {
+  height: 80vh; }
 
 .color-title {
   color: #731615; }
@@ -62,17 +94,24 @@ p {
 .color-subtitle {
   color: #A5321C; }
 
-.icon {
-  font-size: 2.7rem;
-  color: #731615;
-  padding: 0.1rem 1rem; }
-
 .bg-beight {
   background-color: #ebeced; }
+
+.nav-link {
+  color: #000000 !important;
+  font-family: poppinsbold;
+  border-bottom: 3px solid transparent !important;
+  margin: 0 1rem; }
+  .nav-link:active, .nav-link:hover, .nav-link:focus {
+    color: #706d6d !important;
+    border-bottom: 3px solid #A5321C !important; }
 
 .img-header {
   height: 100vh;
   background-color: #ebeced; }
+  .img-header .navbar-toggler {
+    background-color: #731615;
+    border: 1px solid #731615; }
   .img-header .text-nexttitle {
     font-size: 1.5rem;
     color: #A5321C; }
@@ -83,6 +122,13 @@ p {
     font-size: 2.7rem;
     color: #000000;
     cursor: pointer; }
+    .img-header .icon-black:hover {
+      color: #F7A9B0 !important; }
+
+#interests .icon {
+  font-size: 2.7rem;
+  color: #731615;
+  padding: 0.1rem 1rem; }
 
 #formacion .p-bajada {
   font-size: 1.2rem;
@@ -101,11 +147,40 @@ p {
   background-size: contain;
   height: 4rem; }
 
-.p {
-  text-align: justify;
-  color: #A59286; }
-
-.bg-size-80 {
-  height: 80vh; }
+#skills .base-logoSkills {
+  width: 4rem;
+  height: 4rem;
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none; }
+#skills .logo-html {
+  background-image: url("img/logo-html.png"); }
+#skills .logo-css {
+  background-image: url("img/logo-css.png"); }
+#skills .logo-bootstrap {
+  background-image: url("img/logo-bootstrap.png"); }
+#skills .logo-sass {
+  background-image: url("img/logo-sass.png"); }
+#skills .logo-agile {
+  background-image: url("img/logo-agile.png"); }
+#skills .logo-mailchimp {
+  background-image: url("img/logo-mailchimp.png"); }
+#skills .logo-ps {
+  background-image: url("img/logo-ps.png"); }
+#skills .logo-ai {
+  background-image: url("img/logo-ai.png"); }
+#skills .logo-ae {
+  background-image: url("img/logo-ae.png"); }
+#skills .logo-xd {
+  background-image: url("img/logo-xd.png"); }
+#skills .logo-pr {
+  background-image: url("img/logo-pr.png"); }
+#skills .logo-id {
+  background-image: url("img/logo-id.png"); }
 
 /*# sourceMappingURL=style.css.map */
