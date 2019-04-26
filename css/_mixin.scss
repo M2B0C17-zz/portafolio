@@ -1,4 +1,17 @@
-@mixin logoTools(){
-	padding: 5rem;
-	margin: 2rem 0;
+@mixin p(){
+	text-align: justify;
+	color: $color-beight;
+}
+
+@mixin icon-title(){
+	font-size: 2.7rem;
+	color: $color-title;
+	padding: 0.1rem 1rem;
+}
+
+@mixin base-logo-formation(){
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 4rem;
 }

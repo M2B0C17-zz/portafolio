@@ -1,16 +1,36 @@
-h1{
+h1, h2, h3, h4, h5, h6{
 	color:$color-title;
-	font-size: 3rem;
 	font-family: $fonts-secundaryRegular;
+}
+
+h1{
+		font-size: 3rem;
 }
 
 p{
 	font-size: 1rem;
+	font-family: $fonts-primaryRegular;
+}
+
+.color-title{
+	color:$color-title;
+}
+
+.color-subtitle{
+	color: $color-subtitle;
+}
+
+.icon{
+	@include icon-title();
+}
+
+.bg-beight{
+	background-color: $color-background;
 }
 
 .img-header {
 	height: 100vh;
-	background-color: #e6e7e8;
+	background-color: $color-background;
 	
 	.text-nexttitle{
 		font-size: 1.5rem;
@@ -19,13 +39,38 @@ p{
 	
 	.text-description{
 		color: $color-black;
+		text-align: justify;
 	}
 
-	.img-aboutMe {
-		background-image: url("img/imgAboutMe.png");
-		height: 87.2vh;
-		background-position: right;
-	    background-repeat: no-repeat;
-	    background-size: contain;
+	.icon-black{
+		font-size: 2.7rem;
+		color: $color-black;
+		cursor: pointer;
 	}
+}
+
+#formacion{
+	.p-bajada{
+		font-size: 1.2rem;
+		color: $color-subtitle;
+		margin-bottom: 2rem;
+	}
+
+	.img-uft{
+		background-image: url("img/logo-uft.png");
+		@include base-logo-formation();
+	}
+
+	.img-laboratoria{
+		background-image: url("img/logo-laboratoria.png");
+		@include base-logo-formation();
+	}
+}
+
+.p{
+	@include p();
+}
+
+.bg-size-80{
+	height: 80vh;
 }

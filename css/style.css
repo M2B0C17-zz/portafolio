@@ -27,27 +27,85 @@
   src: url("css/Athelas-Bold-04.ttf") format("truetype");
   font-weight: bold;
   font-style: normal; }
-h1 {
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .img-aboutMe {
+    background-image: url("img/bg-img-aboutMe.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain; } }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .img-aboutMe {
+    background-image: url("img/bg-img-aboutMe.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain; } }
+@media (min-width: 1200px) {
+  .img-aboutMe {
+    background-image: url("img/bg-img-aboutMe.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain; } }
+h1, h2, h3, h4, h5, h6 {
   color: #731615;
-  font-size: 3rem;
   font-family: athelasregular; }
 
+h1 {
+  font-size: 3rem; }
+
 p {
-  font-size: 1rem; }
+  font-size: 1rem;
+  font-family: poppinsregular; }
+
+.color-title {
+  color: #731615; }
+
+.color-subtitle {
+  color: #A5321C; }
+
+.icon {
+  font-size: 2.7rem;
+  color: #731615;
+  padding: 0.1rem 1rem; }
+
+.bg-beight {
+  background-color: #ebeced; }
 
 .img-header {
   height: 100vh;
-  background-color: #e6e7e8; }
+  background-color: #ebeced; }
   .img-header .text-nexttitle {
     font-size: 1.5rem;
     color: #A5321C; }
   .img-header .text-description {
-    color: #000000; }
-  .img-header .img-aboutMe {
-    background-image: url("img/imgAboutMe.png");
-    height: 87.2vh;
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: contain; }
+    color: #000000;
+    text-align: justify; }
+  .img-header .icon-black {
+    font-size: 2.7rem;
+    color: #000000;
+    cursor: pointer; }
+
+#formacion .p-bajada {
+  font-size: 1.2rem;
+  color: #A5321C;
+  margin-bottom: 2rem; }
+#formacion .img-uft {
+  background-image: url("img/logo-uft.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 4rem; }
+#formacion .img-laboratoria {
+  background-image: url("img/logo-laboratoria.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 4rem; }
+
+.p {
+  text-align: justify;
+  color: #A59286; }
+
+.bg-size-80 {
+  height: 80vh; }
 
 /*# sourceMappingURL=style.css.map */
