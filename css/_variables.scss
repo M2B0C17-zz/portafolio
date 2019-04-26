@@ -35,7 +35,7 @@ $fonts-secundaryBold: athelasbold;
     src: url('css/Poppins-Bold.woff') format('woff'),
          url('css/Poppins-Bold.ttf') format('truetype');
     font-weight: bold;
-    font-style: normal;
+    font-style: bold;
 }
 
 @font-face {
@@ -45,7 +45,7 @@ $fonts-secundaryBold: athelasbold;
      	 url('css/poppins-light-webfont.woff2') format('woff2'),
          url('css/Poppins-Light.ttf') format('truetype');
     font-weight: lighter;
-    font-style: normal;
+    font-style: lighter;
 }
 
 // Athelas
@@ -65,5 +65,5 @@ $fonts-secundaryBold: athelasbold;
     font-family: 'athelasbold';
     src: url('css/Athelas-Bold-04.ttf') format('truetype');
     font-weight: bold;
-    font-style: normal;
+    font-style: bold;
 }

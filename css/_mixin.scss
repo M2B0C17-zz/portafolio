@@ -17,10 +17,17 @@
 }
 
 @mixin logo-skills(){
-	//padding: 3rem;
 	width: 4rem;
 	height: 4rem;
 	margin: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+@mixin base-imgProjects(){
+	width: auto;
+    height: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
