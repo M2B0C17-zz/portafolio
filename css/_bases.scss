@@ -89,6 +89,11 @@ p{
 	color: $color-title;
 }
 
+.iconContact{
+	@include icon-contact();
+	margin-right: 1rem;
+}
+
 .color-subtitle{
 	color: $color-subtitle;
 }
@@ -149,6 +154,7 @@ p{
 	.text-nexttitle{
 		font-size: 1.5rem;
 		color: $color-subtitle;
+		font-family: $fonts-secundaryRegular;
 	}
 	
 	.text-description{
@@ -182,6 +188,7 @@ p{
 		font-size: 1.2rem;
 		color: $color-subtitle;
 		margin-bottom: 2rem;
+		font-family: $fonts-secundaryRegular;
 	}
 
 	.img-uft{

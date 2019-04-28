@@ -9,6 +9,11 @@
 	padding: 0.1rem 1rem;
 }
 
+@mixin icon-contact(){
+	font-size: 1.2rem;
+	color: $color-title;
+}
+
 @mixin base-logo-formation(){
 	background-position: center;
 	background-repeat: no-repeat;
@@ -38,4 +43,18 @@
     -moz-user-select: none;
     -khtml-user-select: none;
     -ms-user-select:none;
+}
+
+@mixin fontPrimary (){
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Questrial', sans-serif;
+	font-family: 'Muli', sans-serif;
+	font-family: 'Quicksand', sans-serif;
+}
+
+@mixin fontSecondary(){
+	font-family: 'Average Sans', sans-serif;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-family: 'Encode Sans', sans-serif;
+	font-family: 'Martel Sans', sans-serif;
 }
