@@ -66,6 +66,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 3rem; }
 
+a {
+  text-decoration: none !important; }
+
 .card {
   border: none;
   transition: box-shadow .3s;
@@ -154,7 +157,7 @@ p {
 
 .nav-link {
   color: #000000 !important;
-  font-family: "Poppins", "Questrial", "Muli", "Quicksand", sans-serif;
+  font-family: "Average Sans", "Encode Sans", "IBM Plex Sans", "Martel Sans", sans-serif;
   border-bottom: 3px solid transparent !important;
   margin: 0 1rem; }
   .nav-link:active, .nav-link:hover, .nav-link:focus {
