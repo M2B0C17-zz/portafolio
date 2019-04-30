@@ -81,7 +81,13 @@
     background-size: contain; }
 
   .d-all-none {
-    display: none !important; } }
+    display: none !important; }
+
+  .p-2 {
+    padding: 0rem !important; }
+
+  .img-headerProjects .icon-black {
+    font-size: 2rem !important; } }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .img-aboutMe {
     background-image: url("img/bg-img-aboutMe.png");
