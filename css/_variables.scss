@@ -9,41 +9,41 @@ $color-beight: #A59286; // fonts
 $color-rosa: #F7A9B0;
 
 // Tipografias
-$fonts-primaryRegular: 'Poppins', 'Questrial', 'Muli', 'Quicksand', sans-serif;
-$fonts-primaryLight: 'Poppins', 'Questrial', 'Muli', 'Quicksand', sans-serif;
-$fonts-primaryBold: 'Poppins', 'Questrial', 'Muli', 'Quicksand', sans-serif;
+$fonts-primaryRegular: 'poppinsregular', 'Poppins', 'Questrial', 'Muli', 'Quicksand', sans-serif;
+$fonts-primaryLight: 'poppinslight', 'Poppins', 'Questrial', 'Muli', 'Quicksand', sans-serif;
+$fonts-primaryBold: 'poppinsbold', 'Poppins', 'Questrial', 'Muli', 'Quicksand', sans-serif;
 
-$fonts-secundaryRegular: 'Average Sans', 'Encode Sans', 'IBM Plex Sans', 'Martel Sans', sans-serif;
-$fonts-secundaryBold: 'Average Sans', 'Encode Sans', 'IBM Plex Sans', 'Martel Sans', sans-serif;;
+$fonts-secundaryRegular: 'athelasregular', 'Average Sans', 'Encode Sans', 'IBM Plex Sans', 'Martel Sans', sans-serif;
+$fonts-secundaryBold: 'athelasbold', 'Average Sans', 'Encode Sans', 'IBM Plex Sans', 'Martel Sans', sans-serif;
 
 // Font Family
 
 // Poppins
 @font-face {
     font-family: 'poppinsregular';
-    src: url('css/poppins-regular-webfont.eot');
-    src: url('poppins-regular-webfont.woff') format('woff'),
-    	 url('css/poppins-regular-webfont.woff2') format('woff2'),
-         url('css/poppins-regular-webfont.ttf') format('truetype');
+    src: url('Fonts/poppins-regular-webfont.eot');
+    src: url('Fonts/poppins-regular-webfont.woff') format('woff'),
+    	 url('Fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('Fonts/poppins-regular-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'poppinsbold';
-    src: url('css/Poppins-Bold.eot');
-    src: url('css/Poppins-Bold.woff') format('woff'),
-         url('css/Poppins-Bold.ttf') format('truetype');
+    src: url('Fonts/Poppins-Bold.eot');
+    src: url('Fonts/Poppins-Bold.woff') format('woff'),
+         url('Fonts/Poppins-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: bold;
 }
 
 @font-face {
     font-family: 'poppinslight';
-    src: url('css/Poppins-Light.eot');
-    src: url('css/Poppins-Light.woff') format('woff'),
-     	 url('css/poppins-light-webfont.woff2') format('woff2'),
-         url('css/Poppins-Light.ttf') format('truetype');
+    src: url('Fonts/Poppins-Light.eot');
+    src: url('Fonts/Poppins-Light.woff') format('woff'),
+     	 url('Fonts/poppins-light-webfont.woff2') format('woff2'),
+         url('Fonts/Poppins-Light.ttf') format('truetype');
     font-weight: lighter;
     font-style: lighter;
 }
@@ -51,11 +51,11 @@ $fonts-secundaryBold: 'Average Sans', 'Encode Sans', 'IBM Plex Sans', 'Martel Sa
 // Athelas
 @font-face {
     font-family: 'athelasregular';
-    src: url('css/athelas-regular-webfont.eot');
-    src: url('css/athelas-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('css/athelas-regular-webfont.woff2') format('woff2'),
-         url('css/athelas-regular-webfont.woff') format('woff'),
-         url('css/athelas-regular-webfont.ttf') format('truetype');
+    src: url('Fonts/athelas-regular-webfont.eot');
+    src: url('Fonts/athelas-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/athelas-regular-webfont.woff2') format('woff2'),
+         url('Fonts/athelas-regular-webfont.woff') format('woff'),
+         url('Fonts/athelas-regular-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -63,7 +63,7 @@ $fonts-secundaryBold: 'Average Sans', 'Encode Sans', 'IBM Plex Sans', 'Martel Sa
 
 @font-face {
     font-family: 'athelasbold';
-    src: url('css/Athelas-Bold-04.ttf') format('truetype');
+    src: url('Fonts/Athelas-Bold-04.ttf') format('truetype');
     font-weight: bold;
     font-style: bold;
 }
