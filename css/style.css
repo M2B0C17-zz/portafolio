@@ -1,37 +1,37 @@
 @font-face {
   font-family: 'poppinsregular';
-  src: url("css/poppins-regular-webfont.eot");
-  src: url("poppins-regular-webfont.woff") format("woff"), url("css/poppins-regular-webfont.woff2") format("woff2"), url("css/poppins-regular-webfont.ttf") format("truetype");
+  src: url("Fonts/poppins-regular-webfont.eot");
+  src: url("Fonts/poppins-regular-webfont.woff") format("woff"), url("Fonts/poppins-regular-webfont.woff2") format("woff2"), url("Fonts/poppins-regular-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'poppinsbold';
-  src: url("css/Poppins-Bold.eot");
-  src: url("css/Poppins-Bold.woff") format("woff"), url("css/Poppins-Bold.ttf") format("truetype");
+  src: url("Fonts/Poppins-Bold.eot");
+  src: url("Fonts/Poppins-Bold.woff") format("woff"), url("Fonts/Poppins-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: bold; }
 @font-face {
   font-family: 'poppinslight';
-  src: url("css/Poppins-Light.eot");
-  src: url("css/Poppins-Light.woff") format("woff"), url("css/poppins-light-webfont.woff2") format("woff2"), url("css/Poppins-Light.ttf") format("truetype");
+  src: url("Fonts/Poppins-Light.eot");
+  src: url("Fonts/Poppins-Light.woff") format("woff"), url("Fonts/poppins-light-webfont.woff2") format("woff2"), url("Fonts/Poppins-Light.ttf") format("truetype");
   font-weight: lighter;
   font-style: lighter; }
 @font-face {
   font-family: 'athelasregular';
-  src: url("css/athelas-regular-webfont.eot");
-  src: url("css/athelas-regular-webfont.eot?#iefix") format("embedded-opentype"), url("css/athelas-regular-webfont.woff2") format("woff2"), url("css/athelas-regular-webfont.woff") format("woff"), url("css/athelas-regular-webfont.ttf") format("truetype");
+  src: url("Fonts/athelas-regular-webfont.eot");
+  src: url("Fonts/athelas-regular-webfont.eot?#iefix") format("embedded-opentype"), url("Fonts/athelas-regular-webfont.woff2") format("woff2"), url("Fonts/athelas-regular-webfont.woff") format("woff"), url("Fonts/athelas-regular-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'athelasbold';
-  src: url("css/Athelas-Bold-04.ttf") format("truetype");
+  src: url("Fonts/Athelas-Bold-04.ttf") format("truetype");
   font-weight: bold;
   font-style: bold; }
 @media (max-width: 575.98px) {
   .navbar-collapse {
     text-align: center !important;
     color: #A5321C !important;
-    font-family: "Average Sans", "Encode Sans", "IBM Plex Sans", "Martel Sans", sans-serif; }
+    font-family: "athelasregular", "Average Sans", "Encode Sans", "IBM Plex Sans", "Martel Sans", sans-serif; }
 
   .nav-link-xs {
     font-size: 0.8rem !important;
@@ -75,7 +75,7 @@
     display: none !important; } }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .img-aboutMe {
-    background-image: url("img/bg-img-aboutMe.png");
+    background-image: url("Img/bg-img-aboutMe.png");
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -90,7 +90,7 @@
     font-size: 2rem !important; } }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .img-aboutMe {
-    background-image: url("img/bg-img-aboutMe.png");
+    background-image: url("Img/bg-img-aboutMe.png");
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -99,7 +99,7 @@
     display: none !important; } }
 @media (min-width: 1200px) {
   .img-aboutMe {
-    background-image: url("img/bg-img-aboutMe.png");
+    background-image: url("Img/bg-img-aboutMe.png");
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -108,7 +108,7 @@
     display: none !important; } }
 h1, h2, h3, h4, h5, h6 {
   color: #731615;
-  font-family: "Average Sans", "Encode Sans", "IBM Plex Sans", "Martel Sans", sans-serif;
+  font-family: "athelasregular", "Average Sans", "Encode Sans", "IBM Plex Sans", "Martel Sans", sans-serif;
   -webkit-user-select: none;
   -moz-user-select: none;
   -khtml-user-select: none;
@@ -146,18 +146,18 @@ a {
       color: #000000; }
 
 .font-bold {
-  font-family: "Average Sans", "Encode Sans", "IBM Plex Sans", "Martel Sans", sans-serif !important;
+  font-family: "athelasbold", "Average Sans", "Encode Sans", "IBM Plex Sans", "Martel Sans", sans-serif !important;
   font-weight: bold; }
 
 .font-secondary {
-  font-family: "Average Sans", "Encode Sans", "IBM Plex Sans", "Martel Sans", sans-serif; }
+  font-family: "athelasregular", "Average Sans", "Encode Sans", "IBM Plex Sans", "Martel Sans", sans-serif; }
 
 hr {
   border-bottom: 1px solid #F7A9B0; }
 
 p {
   font-size: 1rem;
-  font-family: "Poppins", "Questrial", "Muli", "Quicksand", sans-serif;
+  font-family: "poppinsregular", "Poppins", "Questrial", "Muli", "Quicksand", sans-serif;
   -webkit-user-select: none;
   -moz-user-select: none;
   -khtml-user-select: none;
@@ -208,7 +208,7 @@ p {
 
 .nav-link {
   color: #000000 !important;
-  font-family: "Average Sans", "Encode Sans", "IBM Plex Sans", "Martel Sans", sans-serif;
+  font-family: "athelasbold", "Average Sans", "Encode Sans", "IBM Plex Sans", "Martel Sans", sans-serif;
   border-bottom: 3px solid transparent !important;
   margin: 0 1rem; }
   .nav-link:active, .nav-link:hover, .nav-link:focus {
@@ -232,7 +232,7 @@ p {
   .img-header .text-nexttitle, .img-headerProjects .text-nexttitle, .img-headerContact .text-nexttitle {
     font-size: 1.5rem;
     color: #A5321C;
-    font-family: "Average Sans", "Encode Sans", "IBM Plex Sans", "Martel Sans", sans-serif; }
+    font-family: "athelasregular", "Average Sans", "Encode Sans", "IBM Plex Sans", "Martel Sans", sans-serif; }
   .img-header .text-description, .img-headerProjects .text-description, .img-headerContact .text-description {
     color: #000000;
     text-align: justify; }
@@ -252,15 +252,15 @@ p {
   font-size: 1.2rem;
   color: #A5321C;
   margin-bottom: 2rem;
-  font-family: "Average Sans", "Encode Sans", "IBM Plex Sans", "Martel Sans", sans-serif; }
+  font-family: "athelasregular", "Average Sans", "Encode Sans", "IBM Plex Sans", "Martel Sans", sans-serif; }
 #formacion .img-uft {
-  background-image: url("img/logo-uft.png");
+  background-image: url("Img/logo-uft.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   height: 4rem; }
 #formacion .img-laboratoria {
-  background-image: url("img/logo-laboratoria.png");
+  background-image: url("Img/logo-laboratoria.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -278,28 +278,28 @@ p {
   -khtml-user-select: none;
   -ms-user-select: none; }
 #skills .logo-html {
-  background-image: url("img/logo-html.png"); }
+  background-image: url("Img/logo-html.png"); }
 #skills .logo-css {
-  background-image: url("img/logo-css.png"); }
+  background-image: url("Img/logo-css.png"); }
 #skills .logo-bootstrap {
-  background-image: url("img/logo-bootstrap.png"); }
+  background-image: url("Img/logo-bootstrap.png"); }
 #skills .logo-sass {
-  background-image: url("img/logo-sass.png"); }
+  background-image: url("Img/logo-sass.png"); }
 #skills .logo-agile {
-  background-image: url("img/logo-agile.png"); }
+  background-image: url("Img/logo-agile.png"); }
 #skills .logo-mailchimp {
-  background-image: url("img/logo-mailchimp.png"); }
+  background-image: url("Img/logo-mailchimp.png"); }
 #skills .logo-ps {
-  background-image: url("img/logo-ps.png"); }
+  background-image: url("Img/logo-ps.png"); }
 #skills .logo-ai {
-  background-image: url("img/logo-ai.png"); }
+  background-image: url("Img/logo-ai.png"); }
 #skills .logo-ae {
-  background-image: url("img/logo-ae.png"); }
+  background-image: url("Img/logo-ae.png"); }
 #skills .logo-xd {
-  background-image: url("img/logo-xd.png"); }
+  background-image: url("Img/logo-xd.png"); }
 #skills .logo-pr {
-  background-image: url("img/logo-pr.png"); }
+  background-image: url("Img/logo-pr.png"); }
 #skills .logo-id {
-  background-image: url("img/logo-id.png"); }
+  background-image: url("Img/logo-id.png"); }
 
 /*# sourceMappingURL=style.css.map */
