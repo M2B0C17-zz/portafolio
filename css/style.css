@@ -28,6 +28,24 @@
   font-weight: bold;
   font-style: bold; }
 @media (max-width: 575.98px) {
+  .navbar-collapse {
+    text-align: center !important;
+    color: #A5321C !important;
+    font-family: "Average Sans", "Encode Sans", "IBM Plex Sans", "Martel Sans", sans-serif; }
+
+  .nav-link-xs {
+    font-size: 0.8rem !important;
+    padding: .5rem .35rem !important; }
+
+  .mr-5, .mx-5 {
+    margin-right: 1rem !important; }
+
+  h1 {
+    font-size: 2rem !important; }
+
+  p {
+    font-size: .85rem !important; }
+
   #interests .icon {
     font-size: 2rem !important;
     padding: 0 !important; }
@@ -36,25 +54,52 @@
     display: none !important; }
 
   #skills .base-logoSkills {
-    margin-bottom: 3rem !important; } }
+    margin-bottom: 3rem !important; }
+
+  .bg-size-80 {
+    height: 60vh !important; }
+
+  .img-headerContact .bg-size-55 {
+    height: 40vh !important; }
+  .img-headerContact .img-xs-contact {
+    width: 95%;
+    height: auto; }
+
+  #sectionProjectsProcess .justify-content-center img {
+    width: 80%;
+    height: auto; }
+  #sectionProjectsProcess .d-xs-block {
+    display: block !important; } }
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .d-all-none {
+    display: none !important; } }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .img-aboutMe {
     background-image: url("img/bg-img-aboutMe.png");
     background-position: right;
     background-repeat: no-repeat;
-    background-size: contain; } }
+    background-size: contain; }
+
+  .d-all-none {
+    display: none !important; } }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .img-aboutMe {
     background-image: url("img/bg-img-aboutMe.png");
     background-position: right;
     background-repeat: no-repeat;
-    background-size: contain; } }
+    background-size: contain; }
+
+  .d-all-none {
+    display: none !important; } }
 @media (min-width: 1200px) {
   .img-aboutMe {
     background-image: url("img/bg-img-aboutMe.png");
     background-position: right;
     background-repeat: no-repeat;
-    background-size: contain; } }
+    background-size: contain; }
+
+  .d-all-none {
+    display: none !important; } }
 h1, h2, h3, h4, h5, h6 {
   color: #731615;
   font-family: "Average Sans", "Encode Sans", "IBM Plex Sans", "Martel Sans", sans-serif;
