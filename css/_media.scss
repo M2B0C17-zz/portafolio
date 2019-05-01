@@ -12,8 +12,8 @@
 	}
 	
 	.nav-link-xs{
-		font-size: 0.8rem !important;
-    	padding: .5rem .3rem !important;
+		font-size: 1rem !important;
+    	padding: .5rem 1rem !important;
 	}
 
 	.mr-5, .mx-5{
@@ -77,6 +77,10 @@
 			display: block !important;
 		}
 	}
+
+	footer{
+		padding-bottom: 2rem;
+	}
 	
 }
 
@@ -89,6 +93,14 @@
 	.img-header, .img-headerContact, .img-headerProjects{
 		height: 100% !important;
 		padding: 0 0 2rem 0;
+	}
+
+	footer{
+		padding-bottom: 2rem;
+		.p{
+			padding-right: 3rem;
+		}
+		
 	}
 }
 
@@ -116,6 +128,14 @@
 	.img-header, .img-headerContact, .img-headerProjects{
 		height: 100% !important;
 		padding: 0 0 2rem 0;
+	}
+
+	footer{
+		padding-bottom: 2rem;
+		.p{
+			padding-right: 5rem;
+		}
+		
 	}
 }
 
