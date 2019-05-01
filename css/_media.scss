@@ -7,6 +7,11 @@
     	color: $color-subtitle !important;
     	font-family: $fonts-secundaryRegular;
 	}
+
+	.img-header, .img-headerContact, .img-headerProjects{
+		height: 100% !important;
+		padding: 0 0 2rem 0;
+	}
 	
 	.nav-link-xs{
 		font-size: 0.8rem !important;
@@ -21,7 +26,7 @@
 		font-size: 2rem !important;
 	}
 
-	p{
+	p, .text-description{
     	font-size: .85rem !important;
 	}
 
