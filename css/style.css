@@ -27,7 +27,7 @@
   src: url("Fonts/Athelas-Bold-04.ttf") format("truetype");
   font-weight: bold;
   font-style: bold; }
-@media (max-width: 575.98px) {
+@media (min-width: 320px) and (max-width: 575.98px) {
   .navbar-collapse {
     text-align: center !important;
     color: #A5321C !important;
@@ -54,6 +54,9 @@
     font-size: 2rem !important;
     padding: 0 !important; }
 
+  .a-header {
+    padding-top: 2rem !important; }
+
   .d-xs-none {
     display: none !important; }
 
@@ -76,7 +79,11 @@
     display: block !important; } }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .d-all-none {
-    display: none !important; } }
+    display: none !important; }
+
+  .img-header, .img-headerContact, .img-headerProjects {
+    height: 100% !important;
+    padding: 0 0 2rem 0; } }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .img-aboutMe {
     background-image: url("Img/bg-img-aboutMe.png");
@@ -88,10 +95,14 @@
     display: none !important; }
 
   .p-2 {
-    padding: 0rem !important; }
+    padding: 1rem 0 !important; }
 
   .img-headerProjects .icon-black {
-    font-size: 2rem !important; } }
+    font-size: 2rem !important; }
+
+  .img-header, .img-headerContact, .img-headerProjects {
+    height: 100% !important;
+    padding: 0 0 2rem 0; } }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .img-aboutMe {
     background-image: url("Img/bg-img-aboutMe.png");

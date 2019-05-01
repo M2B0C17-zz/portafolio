@@ -1,7 +1,5 @@
-// @media query
-
 // Extra small devices (portrait phones, less than 576px) ---> xs
-@media (max-width: 575.98px) {
+@media (min-width: 320px) and (max-width: 575.98px) {
 	.navbar-collapse{
     	text-align: center !important;
     	color: $color-subtitle !important;
@@ -35,6 +33,10 @@
 		    font-size: 2rem !important;
 		    padding: 0 !important;
 		}
+	}
+
+	.a-header{
+		padding-top: 2rem !important;
 	}
 	
 	.d-xs-none{
@@ -83,6 +85,11 @@
 	.d-all-none{
 		display: none !important;
 	}
+
+	.img-header, .img-headerContact, .img-headerProjects{
+		height: 100% !important;
+		padding: 0 0 2rem 0;
+	}
 }
 
 // Medium devices (tablets, 768px and up) ---> md
@@ -99,11 +106,16 @@
 	}
 
 	.p-2{
-		padding: .0rem!important;
+		padding: 1rem 0!important;
 	}
 
 	.img-headerProjects .icon-black{
 		font-size: 2rem !important;
+	}
+
+	.img-header, .img-headerContact, .img-headerProjects{
+		height: 100% !important;
+		padding: 0 0 2rem 0;
 	}
 }
 
