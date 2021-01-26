@@ -51,10 +51,10 @@
 			<div class="row">
 				<div class="col-lg-6 col-md-4 col-xl-6 col-sm-6 col-12">
 					<div class="d-flex align-items-center justify-content-center h-100">
-						<a href="https://www.behance.net/macarenabcc5b4"><span class="p-2 icon-icon-behance icon-black"></span></a>
-						<a href="https://www.linkedin.com/in/macarena-baltra-63219785/"><span class="p-2 icon-icon-linkedin icon-black"></span></a>
-						<a href="https://dribbble.com/M2B0C17"><span class="p-2 icon-icon-dribbble icon-black"></span></a>
-						<a href="contact.html"><span class="p-2 icon-icon-mensaje icon-black"></span></a>
+						<a data-toggle="tooltip" data-placement="top" title="Behance" class="a-header" href="https://www.behance.net/macarenabcc5b4"><span class="p-2 icon-icon-behance icon-black"></span></a>
+						<a data-toggle="tooltip" data-placement="top" title="LinkedIn" class="a-header" href="https://www.linkedin.com/in/macarena-baltra-63219785/"><span class="p-2 icon-icon-linkedin icon-black"></span></a>
+						<a data-toggle="tooltip" data-placement="top" title="Dribbble" class="a-header" href="https://dribbble.com/M2B0C17"><span class="p-2 icon-icon-dribbble icon-black"></span></a>
+						<a data-toggle="tooltip" data-placement="top" title="Contáctame" class="a-header" href="contact.html"><span class="p-2 icon-icon-mensaje icon-black"></span></a>
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-8 col-xl-6 col-sm-6 bg-size-30 d-xs-none">
@@ -506,21 +506,19 @@
 						  </div>
 						</div>		                
 					</div>
-					<div class="mb-5 d-xs-none"></div>
+					<div class="mb-5 mt-5"></div>
 					<div class="col-lg-4 col-xl-4 col-md-4 col-sm-4 col-12">
-						<!--
 						<div class="card m-auto">
-						  <img src="css/Img/sinimg.png" class="card-img-top" alt="...">
+						  <img src="css/Img/Website-AustralGroup2019.png" class="card-img-top" alt="...">
 						  <div class="card-body">
-						    <h6 class="card-title font-secondary"><span class="font-bold mr-2">02</span><span class="color-subtitle">TEPA</span></h6>
-						    <p class="p mb-0 text-center">Ai - Ps - HTML5 - SASS - Boostrap 4</p>
-						    <p class="p text-center"><small>Proyecto Digital - Desktop y Mobile</small></p>
+						    <h6 class="card-title font-secondary"><span class="font-bold mr-2">02</span><span class="color-subtitle">Austral Group</span></h6>
+						    <p class="p mb-0 text-center">Ai - HTML5 - CSS - Boostrap 4</p>
+						    <p class="p text-center"><small>Proyecto Digital - Desktop</small></p>
 						    <div class="text-center">
-						    	<a href="#" class="btn btn-primary text-center disabled">En proceso</a>
+						    	<a href="https://www.behance.net/gallery/112151519/Proyecto-Austral-Group" class="btn btn-primary text-center">VER</a>
 						    </div>
 						  </div>
 						</div>	
-						-->	
 					</div>
 					<div class="mb-5 d-xs-none"></div>
 					<div class="col-lg-4 col-xl-4 col-md-4 col-sm-4 col-12">
@@ -1099,5 +1097,10 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<script src="js/main.js"></script>
 	<!-- /end -->	
+	<script type="text/javascript">
+		$(function () {
+			$('[data-toggle="tooltip"]').tooltip()
+		});
+	</script>
 </body>
 </html>

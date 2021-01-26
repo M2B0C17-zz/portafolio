@@ -54,9 +54,9 @@
 						<div class="align-self-center">
 							<h1 class="font-secondary m-0 text-center">Contáctame</h1>
 							<div class="d-flex justify-content-center align-items-end">
-								<a class="a-header" href="https://www.behance.net/macarenabcc5b4"><span class="p-2 icon-icon-behance icon-black"></span></a>
-								<a class="a-header" href="https://www.linkedin.com/in/macarena-baltra-63219785/"><span class="p-2 icon-icon-linkedin icon-black"></span></a>
-								<a class="a-header" href="https://dribbble.com/M2B0C17"><span class="p-2 icon-icon-dribbble icon-black"></span></a>
+								<a data-toggle="tooltip" data-placement="bottom" title="Behance" class="a-header" href="https://www.behance.net/macarenabcc5b4"><span class="p-2 icon-icon-behance icon-black"></span></a>
+								<a data-toggle="tooltip" data-placement="bottom" title="LinkedIn" class="a-header" href="https://www.linkedin.com/in/macarena-baltra-63219785/"><span class="p-2 icon-icon-linkedin icon-black"></span></a>
+								<a data-toggle="tooltip" data-placement="bottom" title="Dribbble" class="a-header" href="https://dribbble.com/M2B0C17"><span class="p-2 icon-icon-dribbble icon-black"></span></a>
 							</div>
 							<div class="mt-5 mb-5"></div>
 							<div>
@@ -101,5 +101,10 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<script src="js/main.js"></script>
 	<!-- /end -->	
+	<script type="text/javascript">
+		$(function () {
+			$('[data-toggle="tooltip"]').tooltip()
+		});
+	</script>
 </body>
 </html>
